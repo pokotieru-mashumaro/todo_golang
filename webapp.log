@@ -308,3 +308,7 @@ net/http.(*conn).serve(0x1400017e750, {0x104e56968, 0x1400011d2c0})
 	/opt/homebrew/Cellar/go/1.23.4/libexec/src/net/http/server.go:2092 +0x4fc
 created by net/http.(*Server).Serve in goroutine 1
 	/opt/homebrew/Cellar/go/1.23.4/libexec/src/net/http/server.go:3360 +0x3dc
+2025/01/02 21:27:51 route_auth.go:37: sql: no rows in result set
+2025/01/02 21:27:51 server.go:3489: http: superfluous response.WriteHeader call from todo_golang/app/controllers.authenticate (route_auth.go:53)
+2025/01/02 21:27:56 route_auth.go:37: sql: no rows in result set
+2025/01/02 21:27:56 server.go:3489: http: superfluous response.WriteHeader call from todo_golang/app/controllers.authenticate (route_auth.go:53)
